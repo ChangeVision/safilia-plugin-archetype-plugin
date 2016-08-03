@@ -1,0 +1,26 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+   <extension point="com.change_vision.astah.ui.actionSets">
+      <actionSet
+            label="%action_set_label"
+            visible="true"
+            id="${groupId}.${artifactId}.actionSet">
+         <menu
+               id="${artifactId}"
+               label="%menu_group"
+               path="tool/${artifactId}">
+         </menu>
+         <action
+			   label="%menu_label"
+               icon="icons/sample.gif"
+               class="${package}.TemplateAction"
+               tooltip="%menu_tooltip"
+               menubarPath="tool/${artifactId}/"
+               id="${artifactId}">
+         </action>
+     </actionSet>
+   </extension>
+</plugin>
