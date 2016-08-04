@@ -257,7 +257,7 @@
 			<artifactId>safilia-api</artifactId>
 			<version>${safilia.version}</version>
 			<scope>system</scope>
-			<systemPath>${safiliaPath}/safilia.jar</systemPath>
+			<systemPath>${safiliaPath}/safilia-api.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>org.osgi</groupId>
