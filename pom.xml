@@ -17,12 +17,12 @@
     <repository>
       <id>local</id>
       <name>default</name>
-      <url>file:///${java.io.tmpdir}/astah-plugin-SDK/repository</url>
+      <url>file:///${java.io.tmpdir}/safilia-plugin-SDK/repository</url>
     </repository>
     <snapshotRepository>
       <id>local</id>
       <name>default</name>
-      <url>file:///${java.io.tmpdir}/astah-plugin-SDK/repository</url>
+      <url>file:///${java.io.tmpdir}/safilia-plugin-SDK/repository</url>
     </snapshotRepository>
   </distributionManagement>
 
