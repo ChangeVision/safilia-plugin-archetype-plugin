@@ -9,8 +9,8 @@ import javax.swing.JOptionPane;
 import com.change_vision.safilia.api.inf.SafiliaAPI;
 import com.change_vision.safilia.api.inf.exception.ProjectNotFoundException;
 import com.change_vision.safilia.api.inf.project.ProjectAccessor;
-import com.change_vision.jude.api.inf.ui.IPluginActionDelegate;
-import com.change_vision.jude.api.inf.ui.IWindow;
+import com.change_vision.safilia.api.inf.ui.IPluginActionDelegate;
+import com.change_vision.safilia.api.inf.ui.IWindow;
 
 public class TemplateAction implements IPluginActionDelegate {
 
